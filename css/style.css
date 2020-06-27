@@ -1,0 +1,277 @@
+
+body {
+    position: relative;
+    overflow-x: hidden;
+}
+
+/****** contents *******/
+.contents {
+    margin: 0 auto;
+    position: relative;
+    width: 1100px;
+}
+
+/****** slick *******/
+.slick-prev {
+    left: 25px;
+    z-index: 1;
+}
+
+.slick-next {
+    right: 25px;
+    z-index: 1;
+}
+
+.slick-dots {
+    bottom: 10px;
+}
+
+.js-slick-items img {
+    max-width: 100%;
+}
+
+/****** header *******/
+.header {
+    color: #fff;
+    font-size: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.header__flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__icon {
+    align-items: center;
+    display: flex;
+}
+
+.header__logo {
+    margin: 0 10px 0 0;
+}
+
+.header__btn {
+    background-color: #ff0000;
+    display: inline-block;
+    padding: 3px 10px;
+    text-align: center;
+}
+
+.header__link {
+    color: #fff;
+}
+
+/****** main visual *******/
+.main-visual__bg {
+    position: relative;
+}
+
+.main-visual__head {
+    bottom: 150px;
+    color: #fff;
+    left: 50px;
+    position: absolute;
+}
+
+/****** heading *******/
+.heading__bg {
+    padding: 10px 0 40px;
+}
+
+.heading__flex {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -20px;
+}
+
+.heading__group {
+    padding: 0 20px;
+}
+
+.heading__inner {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 12px;
+}
+
+.heading__h2 {
+    margin: 0;
+}
+
+.heading__num {
+    font-size: 60px;
+    display: block;
+    line-height: 1;
+}
+
+/****** read-image *******/
+.read-image__bg {
+    display: flex;
+}
+
+.read-image__img {
+    width: 50%;
+}
+
+/****** computer *******/
+.computer__bg {
+    padding: 50px 0 30px;
+}
+
+.computer__flex {
+    display: flex;
+}
+
+.computer__img {
+    margin: 0 30px 0 0;
+}
+
+.computer__h2 {
+    margin: 0;
+}
+
+.computer__sub-ttl {
+    display: inline-block;
+}
+
+/****** because *******/
+.because__bg {
+    background: url(../img/img_bacause01.png) 50% 0 / cover no-repeat;
+    color: #ffffff;
+    padding: 40px;
+    text-align: center;
+}
+
+.because__h3 {
+    font-weight: normal;
+}
+
+.because__h4 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+/****** company *******/
+.company__bg {
+    padding: 50px 0 30px;
+}
+
+.company__flex {
+    display: flex;
+}
+
+.company__ttl {
+    margin: 0 30px 0 0;
+    width: 50%;
+}
+
+.company__img {
+    width: 50%;
+}
+
+.company__h2 {
+    margin: 0;
+}
+
+.company__sub-ttl {
+    display: inline-block;
+}
+
+.company__table {
+    width: 100%;
+}
+
+.company__table th {
+    padding: 10px;
+    width: 30%;
+}
+
+.company__table td {
+    padding: 10px;
+    width: 70%;
+    z-index: 5;
+}
+
+.company__conts {
+    max-width: 100%;
+}
+
+/****** footer *******/
+.footer__bg {
+    background-color: #303030;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+.footer__line {
+    border-color: #ffffff;
+    margin: 40px 30px 0;
+}
+
+.footer__copy {
+    margin: 20px 0 0;
+    text-align: center;
+}
+
+/****** contact *******/
+.contact__flex {
+    display: flex;
+}
+
+.contact__ttl {
+    width: 45%;
+    margin: 0 20px 0 0;
+}
+
+.contact__h2 {
+    margin: 0;
+}
+
+.contact__sub-ttl {
+    display: inline-block;
+    margin: 0 0 20px;
+}
+
+.contact__txt {
+    margin: 0 0 40px;
+}
+
+.contact__around {
+    width: 50%;
+}
+
+.contact__num {
+    align-items: center;
+    display: flex;
+    line-height: 1;
+    margin: 0 0 20px 0;
+}
+
+.contact__tel {
+    font-size: 24px;
+    padding: 0 20px 0 10px;
+}
+
+.contact__area {
+    background-color: #e0dfdf;
+    display: block;
+    margin: 0 0 5px 0;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.contact__area::after {
+    background: url(../img/icon_arrow05.png) 50% 0 / contain no-repeat;
+    content: "";
+    height: 15px;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    width: 15px;
+}
